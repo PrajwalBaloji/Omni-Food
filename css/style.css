@@ -31,9 +31,27 @@
     box-sizing: border-box;
 }
 
+html {
+   /* setting font size to 10px , nut the default font size is 16px*/
+   /* 10/16=0.625=62.5% */
+   /* percentage od users browser font size setting */
+   font-size: 62.5%;
+}
+
 body {
     font-family: sans-serif;
     font-weight: 400;
     line-height: 1;
     color: #555;
+}
+
+.hero {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   max-width: 130rem;
+   margin: 0 auto;
+}
+
+.hero-img{
+   width: 100%;
 }
