@@ -30,6 +30,7 @@
  -- 05 SHADOWS
  -- 06 BORDER-RADIUS
        Default : 9px
+                 11px
  -- 07 WHITE SPACES
     - SPACING SYSTEM (px)
     2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -53,6 +54,10 @@ body {
     font-weight: 400;
     line-height: 1;
     color: #555;
+}
+
+strong {
+   font-weight: 500;
 }
 
 /* **************************************** */
